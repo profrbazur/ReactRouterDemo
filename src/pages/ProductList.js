@@ -7,5 +7,9 @@ export const ProductList = () => {
   const location = useLocation();
   console.log(location);
 
-  return <div className="component">ProductList</div>;
+  return (
+    <main>
+      <div className="component">ProductList</div>;
+    </main>
+  );
 };
