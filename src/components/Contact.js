@@ -1,5 +1,3 @@
 export const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
-}
+  return <div className="component">Contact</div>;
+};
